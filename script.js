@@ -2,19 +2,24 @@
  //per i multipli di 3 stampi “Fizz” al posto del numero
  //per i multipli di 5 stampi “Buzz” al posto del numero
  //per i numeri che sono sia multipli di 3 che di 5 stampi “FizzBuzz” al posto del numero
-let print;
+
+ let print;
+
  for (let i = 1; i <= 100; i++){
     console.log(i);
-    if ( i % 3 == 0 ) { 
-        print = "Fizz";  
+    if (( i % 3 == 0 ) && ( i % 5 == 0 )) {
+        print = "FizzBuzz";
         console.log(print);
     }
     else if ( i % 5 == 0 ) {
         print = "Buzz";
         console.log(print);
     }    
-    else if ( i % 3 == 0 && i % 5 == 0) {
-        print = "FizzBuzz";
+    else if ( i % 3 == 0 ) { 
+        print = "Fizz";  
         console.log(print);
+    }
+    else {
+        console.log(i)
     }
  }
