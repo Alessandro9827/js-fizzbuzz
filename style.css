@@ -1,3 +1,4 @@
+/*Reset CSS*/
 * {
     margin: 0;
     padding: 0;
@@ -47,6 +48,27 @@ div.wrapper .card h2 {
     font-weight: 500;
 }
 
-/*fizz color: #08D6A0 */
-/*bazz color; #FFD166 */
-/*fizzbazz color: #F0466F */
+.fizz-color {
+    background-color: #08D6A0;
+    display: flex;
+    width: calc((100% / 10) - 1rem);
+    padding: 1.5rem 0;
+    margin: 0 .5rem 1.5rem .5rem;
+}
+
+.bazz-color {
+    background-color: #FFD166;
+    display: flex;
+    width: calc((100% / 10) - 1rem);
+    padding: 1.5rem 0;
+    margin: 0 .5rem 1.5rem .5rem;
+}
+
+.fizz-bazz-color {
+    background-color: #F0466F;
+    display: flex;
+    width: calc((100% / 10) - 1rem);
+    padding: 1.5rem 0;
+    margin: 0 .5rem 1.5rem .5rem;
+}
+
