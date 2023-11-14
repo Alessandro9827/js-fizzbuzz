@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #083B4B;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: white;
+    font-size: 3rem;
+    margin: 1rem 0 3rem 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+div.wrapper .card {
+    display: flex;
+    background-color: #1289B2;
+    width: calc((100% / 10) - 1rem);
+    padding: 1.5rem 0;
+    margin: 0 .5rem 1.5rem .5rem;
+}
+
+div.wrapper .card h2 {
+    margin: 0 auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/*fizz color: #08D6A0 */
+/*bazz color; #FFD166 */
+/*fizzbazz color: #F0466F */
